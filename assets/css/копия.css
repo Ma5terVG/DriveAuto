@@ -1,0 +1,96 @@
+body{
+   background: #666;
+    
+}
+
+div {
+  padding: 20px 0;
+  border-bottom: 0px solid rgba(0,0,0,.05); 
+  text-align: center;
+}
+h1{
+    text-align: center;
+      font-family: 'Merriweather', serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  max-width: 320px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  color:aliceblue;
+}
+
+a:link{
+    text-decoration: none;
+   color: currentColor;
+}
+a:visited{
+    text-decoration: none;
+   color: currentColor;
+}
+
+a:hover{
+    text-decoration: none;
+   color:yellow;
+}
+
+a:active{
+    text-decoration: none;
+   color:firebrick;
+}
+
+#navbar ul {
+  display: none;
+  background-color: #f90;
+  position: absolute;
+  top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar {
+  height: 50px;
+  background-color: #666;
+    margin-top: 0px;
+    padding-bottom: 6px;
+    padding-top: 20px;
+  padding-left: 700px;
+  min-width: 470px;
+}
+#navbar li {
+  float: left;
+  position: relative;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  height: 120%;
+    font-size: 22px;
+}
+#navbar li a {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+#navbar ul li { float: none; }
+#navbar li:hover { background-color:#f90; padding-top: 20px;  }
+#navbar ul li:hover { background-color: #666; }
+
+.imgblock {
+   padding-top:20px;
+width:330px;
+padding-left:20px;
+height:180px;
+    
+background:blue;
+
+/*оформление текста*/
+color:#FFF;
+font-family:Arial, Helvetica, sans-serif;
+font-size:40px;
+}
