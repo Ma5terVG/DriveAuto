@@ -1,0 +1,37 @@
+body{
+    background-color: azure;
+}
+/*table*/
+table {
+  margin-left: 450px;
+  text-align: center;
+  border-collapse: collapse; 
+  line-height: 1.1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+  color: black;
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
+}
+th {
+  padding: 10px; 
+  border: 1px solid #A9E2CC;
+}
+td {
+  font-size: 0.8em;
+  padding: 5px 7px;
+  border: 1px solid #A9E2CC;
+}
+.first {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+/*menu*/
+.navbar-brand img{width:130px}
+.mt-0{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
